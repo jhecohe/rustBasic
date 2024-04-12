@@ -1,11 +1,13 @@
 mod ciclos;
+mod estructuras;
 mod propiedad;
 mod referencias_prestamos;
 
 fn main() {
     // diferentes_ciclos();
     // propiedad();
-    ref_prestamos();
+    // ref_prestamos();
+    estructuras();
 }
 
 fn ref_prestamos() {
@@ -22,4 +24,8 @@ fn propiedad() {
     // propiedad::propiedad_num();
     // propiedad::propiedad_cadena();
     propiedad::propiedad_cadena_clone();
+}
+
+fn estructuras() {
+    estructuras::estructuras();
 }
