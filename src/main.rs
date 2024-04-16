@@ -9,6 +9,7 @@ mod mi_match;
 mod mi_match2;
 mod propiedad;
 mod referencias_prestamos;
+mod segmentos;
 mod vectores;
 
 fn main() {
@@ -23,7 +24,12 @@ fn main() {
     // mi_match2();
     // vector();
     // cadenas();
-    mapas();
+    // mapas();
+    segmentos();
+}
+
+fn segmentos() {
+    segmentos::slice();
 }
 
 fn ref_prestamos() {
